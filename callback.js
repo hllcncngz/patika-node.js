@@ -4,7 +4,7 @@ const posts = [
     { name: "Post 3", content: "content 3" }
 ]
 
-const newPost = { name: "Post 4", content: "Yazar 4" }
+const newPost = { name: "Post 4", content: "content 4" }
 
 function addPost(receivedPost) {
     return new Promise((resolve, reject) => {
